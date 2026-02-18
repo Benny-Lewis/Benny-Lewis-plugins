@@ -1,0 +1,39 @@
+{
+  "name": "Benny-Lewis-plugins",
+  "owner": {
+    "name": "Benny-Lewis"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Benny Lewis"
+  },
+  "plugins": [
+    {
+      "name": "home-assistant-assistant",
+      "source": {
+        "source": "github",
+        "repo": "Benny-Lewis/home-assistant-assistant"
+      },
+      "description": "Manage your Home Assistant setup through natural language — automations, scripts, scenes, dashboards, naming, deployment, and more.",
+      "version": "1.0.0",
+      "author": { "name": "blewis" },
+      "homepage": "https://github.com/Benny-Lewis/home-assistant-assistant",
+      "license": "MPL-2.0",
+      "keywords": ["home-assistant", "automation", "smart-home", "yaml", "iot", "home-automation"],
+      "category": "home-automation"
+    },
+    {
+      "name": "garden-bot",
+      "source": {
+        "source": "github",
+        "repo": "Benny-Lewis/garden-bot"
+      },
+      "description": "Gardening and landscaping assistant with persistent garden profiles, expert plant advice, and landscape design with visual mockups.",
+      "version": "0.1.0",
+      "author": { "name": "blewis" },
+      "homepage": "https://github.com/Benny-Lewis/garden-bot",
+      "license": "MPL-2.0",
+      "keywords": ["gardening", "landscaping", "plants", "landscape-design", "garden-planning"],
+      "category": "gardening"
+    }
+  ]
+}
